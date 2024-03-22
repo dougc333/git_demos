@@ -19,7 +19,7 @@
         ignorecase = true
         precomposeunicode = true
 [user]
-        :star: name = foo :star:
+        **name = foo**
   - git config --local --get user.name >foo 
   - git config --global --get user.name > doug chang
   - git config --get user.name >foo
