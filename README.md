@@ -38,7 +38,12 @@ it doesnt match the git config --add format exactly.
 git remote add origin https://github.com/OWNER/REPOSITORY.git
 git push --set-upstream origin trunk
 
-## Merging
+## Merging and Fixing Trees
 
-10-100x wasted  time compared to config vars. Branch, merge back into main/master/dev/trunk. The merge commit messages pollute the history. What to do? 
+10-100x wasted time compared to config vars. Wasted some multiple of thousands of hours. Most call this branch and merge, this repo focuses on merge and fix. Fix = modify tree shape.  
+
+- The merge commit messages pollute the history. What to do?
+- Fixing a messed up merge.
+- Fixing trees in a shape which is not the desired shape.
+
 How to present a single commit to a group project. How to fix merges and messed up branches, ie moving files between branches.  
